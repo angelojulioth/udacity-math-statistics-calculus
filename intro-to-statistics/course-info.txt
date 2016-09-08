@@ -1,0 +1,3 @@
+INSTRUCTORS:
+    - Sebastian Thrun
+    - Adam Sherwin
