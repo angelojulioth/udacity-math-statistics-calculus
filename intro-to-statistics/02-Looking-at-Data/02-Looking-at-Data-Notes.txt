@@ -1,0 +1,28 @@
+VIDEO 01:
+	* Lo básico de la estadística es que el mundo está lleno de datos, nosotros las
+	  personas tenemos que tomar decisiones, entonces la estadística llega a nuestro
+	  rescate.
+	  La estadística toma datos y los convierte en información que nosotros podemos
+	  usar para tomar decisiones.
+	  No importa en qué rama e trabajo te encuentres, la estadística es útil y usada
+	  en diversos campos:
+	  - Ciencias Sociales
+	  - Finanzas
+	  - Robótica
+	  - Medicina
+	  - Negocios
+	  - Climatología
+	  - Psicología
+	  - Ciencias de la Salud
+	  - Ingeniería
+	  - Arqueología
+	  - Leyes
+	  Todos los diversos campos mencionados anteriormente y muchos otros más se
+	  encuentran impulsados por los datos, incluyendo campos -improbables-
+	  tales como:
+	  - Biología
+	  - Física
+          Y muchos otros campos improbables más.
+	  
+	  Esto sirve para darse cuenta de que las estadísticas son muy
+	  importantes, útiles, etc...
