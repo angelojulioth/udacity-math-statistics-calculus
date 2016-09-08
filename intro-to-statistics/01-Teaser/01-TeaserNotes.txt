@@ -1,0 +1,70 @@
+VIDEO 01:
+    El instructor se presenta y dice brevemente que se hará un proyecto sobre
+    "deep statistics" o "estadística profunda", el ejercicio se llamará:
+    "you are unpopular".
+
+VIDEO 02:
+    Digamos que hay dos clases de personas para simplificar el ejemplo, tipoA y tipoB.
+    Las tipoA son las más populares, las tipoB son las menos populares:
+    tipoA -> tienen 80 amigos
+    tipoB -> tienen 20 amigos
+    Tal vez no sepas qué tipo eres, entonces, hay que calcular cual es el número esperado
+    o promedio de amigos(EXPECTED OR AVERAGE NUMBER OF FRIENDS), y para hacerlo se puede
+    asumir que la mitad de las personas son de tipoA y la otra mitad de tipoB:
+    tipoA = 1/2
+    tipoB = 1/5
+
+    R// 50
+    Puesto a que no se puede saber el tipo de persona que soy, la respuesta del número
+    esperado de amigos(número promedio de amigos), es la suma de la cantidad de amigos
+    de ambos tipos, dividido para 2 y se obtiene la respuesta de promedio, se puede hacer
+    también el cálculo de la siguiente forma, y se obtiene el mismo resultado:
+    PASE 1: 1/2 * 80 + 1/2 * 20
+    PASE 2: 40 + 10
+    R//     50
+    
+    Entonces ¿Por qué no eres popular?
+
+VIDEO 03:
+    Imagina tu página de Facebook o GooglePlus, y dentro de ella tienes una lista de
+    amigos, como sabemos puede tener 80(serías de tipoA) o 20(serías de tipoB), entonces
+    se espera que tengas 50 amigos(promedio de amigos de ambos tipos, ya que se desconoce
+    el tipo de persona que seas).
+    Ahora escojamos a un amigo de la lista aleatoriamente, esta persona también tiene una
+    página de Facebook o de Gplus, entonces, antes de saber cuantos amigos tiene esta
+    persona, hay que considerar que el amigo aleatorio también puede ser o una persona
+    de tipoA(popular -> 80 amigos) o una persona de tipoB(no popular -> 20 amigos).
+    Finalmente, piensa en cuales son las posibilidades de haber escogido al amigo
+    aleatorio y que este sea de tipoA, o que este sea de tipoB, la respuesta debe de ser
+    entre 0 y 1.
+    POSIBILIDADES DE ESCOGER DE ACUERDO A LA CANTIDAD DE AMIGOS:
+    tipoA -> 0.8 (puesto a que tiene 80 amigos)
+    tipoB -> 0.2 (puesto a que tiene 20 amigos)
+
+    En expectativa, ¿cuantos amigos podría tener nuestro amigo aleatorio?
+    R// 68
+    Explicación:
+    Con una probabilidad de escoger al tipoA de 0.8 entonces 0.8 * 80
+    Con uan probabilidad de escoger al tipoB de 0.2 entonces 0.2 * 20
+    RESOLUCIÓN:
+        PASE 1: 0.8 * 80 + 0.2 * 20
+	PASE 2: 64 + 4
+	R//     68
+    Entonces, en expectativa, tu amigo aleatorio tendría 68 amigos, mientras tu tendrías
+    50 amigos, esto quiere decir que en expectativa no eres popular.
+
+VIDEO 04:
+    Tomar en cuenta que el material del curso es simplemente "statistics 101", es un curso
+    básico que se reciviría en la universidad en el caso de que no se estudie un grado en
+    estadística.
+    En el curso se enseñará a lograr varias cosas con los datos:
+    * Visualizarlos
+    * Resumirlos
+    * Hacer pruebas con ellos
+    * Encontrar tendencias
+    
+    También habrá algo opcional, los retos, en los que se harán pruebas de algunos teoremas
+    mientras se desarrolla el curso, estos retos se harán mediante pequeños juegos, lo más
+    importante es que se tendrá la posibilidad de programar las cosas se se aprenden, esto
+    también es opcional pero muy recomendado, ya que al programar se aprenderá el material
+    mucho mejor.
