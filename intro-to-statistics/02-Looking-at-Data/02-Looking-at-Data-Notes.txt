@@ -26,3 +26,63 @@ VIDEO 01:
 	  
 	  Esto sirve para darse cuenta de que las estadísticas son muy
 	  importantes, útiles, etc...
+
+VIDEO 02:
+    Uno de los problemas más comunes de las personas que estudian estadística tiene que
+    ver con decisiones de compra.
+    Supongamos que deseamos comprar una casa, hay casas pequeñas, casas grandes, pero
+    tu quieres esta casa en especial, construida por un diseñador famoso, y esta casa
+    tiene un cierto precio, digamos que en dólares:
+    $92,000.00
+    Entonces la pregunta que te haces es ¿está el precio bien? ¿es mucho o es poco?
+    eso exactamente es algo que podemos determinar.
+    En estadística, una forma de determinarlo es viendo los datos, vamos a asumir que
+    hay una base de datos con ventas de casas pasadas que se encuentran en el mismo
+    vecindario, sólo por simplicidad, vamos a asumir que conocemos dos cosas:
+    - El tamaño de la casa
+    - El costo al que la casa fue vendida
+
+    Vamos a asumir que lo siguiente es la base de datos:
+
+    TAMAÑO(Pies cuadrados) | Costo de Venta
+    -----------------------------------------
+    1400 ft²               | 112,000 $
+    2400 ft²               | 192,000 $
+    1800 ft²               | 144,000 $
+    1900 ft²               | 152,000 $
+    1300 ft²               | 104,000 $
+    1100 ft²               | 88,000  $
+
+    Quizes:
+
+    ¿Cuánto dinero deberías pagar al querer comprar una casa de 1,300 ft²?
+    R// Según la base de datos, se puede notar que hay otra casa del mismo tamaño, por
+        lo tanto, estadísticamente se espera a que se pague la misma cantidad por la
+	propiedad, puesto a que se encuentra en la misma ubicación y tiene el mismo
+	tamaño, entonces se espera que se paguen 104,000$ por la propiedad de 1,300 ft²
+
+    ¿Cuánto dinero deberías pagar el querer comprar una casa de 1,800 ft²?
+    R// Se espera que se paguen 144,000$ por una casa de 1,800 ft², esto según la base
+        de datos, puesto a que se ha vendido a ese precio una casa del mismo tamaño.
+
+    Ahora una pregunta un tanto más complicada ¿Cuánto dinero deberías pagar al querer
+    comprar una casa de 2,100 ft²?
+    R// Según la tabla de la base de datos, 2,100 ft² se encuentra entre 1,800 ft² y
+        2,400 ft²
+	Entonces al tomar la mitad de los precios de las casas que se encuentran en
+	ese rango de tamaño:
+	1,800 ft² cuesta -> 144,000$
+	2,400 ft² cuesta -> 192,000$
+	Entonces:
+	PASE 1: ½ × 144,000$ + ½ × 192,000$
+	PASE 2: 72,000$ + 96,000$
+	RESPUESTA: 168,000$
+
+    TENER EN CUENTA:
+    Algo bueno de los datos anteriores es que estos datos tienen la propiedad constante
+    de tener un costo determinado por pie cuadrado, se puede apreciar que todos los datos
+    tienen la propiedad tomando como ejemplo dos de la tabla:
+    -> DATO1 DE EJEMPLO: 112,000$ / 1,400 ft² = 80$ per ft²
+    -> DATO2 DE EJEMPLO: 88,000$  / 1,100 ft² = 80$ per ft²
+    En los ejercicios de secciones futuras no necesariamente se dará el caso de tener
+    datos cuyas propiedades, una o varias, sean constantes.
